@@ -1747,3 +1747,15 @@ p.form-message.success, p.form-message.error {
       right: 0;
       line-height: 54px;
       cursor: pointer; }
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 800px;
+  margin: 20px auto;
+}
+ .white-popup p{
+   color: #000;
+   font-size: 14px;
+ }

@@ -92,11 +92,13 @@
     //===== Magnific Popup
     
     $('.image-popup').magnificPopup({
-      type: 'image',
-      gallery:{
-        enabled:true
-      }
+      type: 'image'
     });
+
+	$('.text-popup').magnificPopup({
+		type: 'inline',
+		midClick: true,
+	});
     
     
     //===== Back to top
